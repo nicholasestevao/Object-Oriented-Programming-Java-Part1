@@ -1,2 +1,4 @@
 *.exe
 *.o
+/ex2-Lista1/nbproject/private/
+/ex2-Lista1/build/
