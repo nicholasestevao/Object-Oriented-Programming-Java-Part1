@@ -12,44 +12,32 @@ public class Ex2Lista1 {
 
         //Testando dispositivo de rede
         System.out.println("Dispositivo de Rede:");
-        rede.ligaDispositivo();
-        rede.verificaStatus();
-        rede.executaTeste();
-        rede.verificaStatus();
+        //rede.ligaDispositivo();
+        rede.executaTeste(); // funcao executa teste ja chama a funcao verificaStatus e a funcao ligaDispositivo
+        //rede.verificaStatus();
         
         System.out.println("Digite o tamanho do pacote de dados: ");
         int tamDados = s.nextInt();
         rede.enviaPacoteDados(tamDados);
-        System.out.println("Digite o tamanho do novo pacote de dados: ");
-        tamDados = s.nextInt();
-        rede.enviaPacoteDados(tamDados);
         
         //Testando dispositivo de impressao
         System.out.println("\nDispositivo de Impressao:");
-        impressora.ligaDispositivo();
-        impressora.verificaStatus();
-        impressora.executaTeste();
-        impressora.verificaStatus();
+        //impressora.ligaDispositivo();
+        impressora.executaTeste();// funcao executa teste ja chama a funcao verificaStatus
+        //impressora.verificaStatus();
         
         System.out.println("Digite a quantidade de paginas a serem impressas: ");
         int numPag = s.nextInt();
         impressora.imprimePagina(numPag);
-        System.out.println("Digite a nova quantidade de paginas a serem impressas: ");
-        numPag = s.nextInt();
-        impressora.imprimePagina(numPag);
         
         //Testando dispositivo de video
         System.out.println("\nDispositivo de Video:");
-        tela.ligaDispositivo();
-        tela.verificaStatus();
-        tela.executaTeste();
-        tela.verificaStatus();
+        //tela.ligaDispositivo();
+        tela.executaTeste();// funcao executa teste ja chama a funcao verificaStatus
+        //tela.verificaStatus();
         
         System.out.println("Digite o brilho desejado: ");
         int brilho = s.nextInt();
-        tela.alteraBrilhoExibicao(brilho);
-        System.out.println("Digite o novo brilho desejado: ");
-        brilho = s.nextInt();
         tela.alteraBrilhoExibicao(brilho);
     }
     

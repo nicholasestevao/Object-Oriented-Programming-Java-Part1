@@ -7,7 +7,7 @@ public class Dispositivo {
     
     public void Dispositivo(){
         this.ligado = false;
-        this.status = true;
+        this.status = false;
     }
     public void ligaDispositivo(){
         this.ligado = true;
@@ -15,7 +15,6 @@ public class Dispositivo {
     }
     
     public boolean verificaStatus(){
-        System.out.println("Verificando o status do dispositivo ...");
         if(status){
             System.out.println("Dispositivo esta funcionando corretamente.");
         }else{
@@ -30,7 +29,6 @@ public class Dispositivo {
             System.out.println("Reiniciando dispositivo ...");
             ligaDispositivo();
             this.status = true;
-        }else{
             System.out.println("Dispositivo esta funcionando corretamente.");
         }
     }
