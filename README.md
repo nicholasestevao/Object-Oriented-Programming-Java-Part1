@@ -7,6 +7,7 @@ lecionada pelo Professor Robson Leonardo Ferreira Cordeiro, para o curso de Enge
 
 * Isaac Santos Soares - 12751713
 * Nicholas Estevao Pereira de Oliveira Rodrigues Braganca - 12689616
+* Asafe Henrique De França - 12745212
 
 ---
 
