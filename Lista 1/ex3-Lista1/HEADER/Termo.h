@@ -1,20 +1,20 @@
-#ifndef __MONOMIO_H__
-#define __MONOMIO_H__
+#ifndef __TERMO_H__
+#define __TERMO_H__
 
 #include <iostream>
 
 using std::cout;
 
-class monomio {
+class Termo {
     private:
         int grau, cte;
 
     public:
-        monomio (int grau, int cte);  
+        Termo (int grau, int cte);  
         int getCte ();  
         int getGrau ();
         void addCte (int add_cte);
-        void printMonomio ();
+        void mostra ();
 };
 
 #endif

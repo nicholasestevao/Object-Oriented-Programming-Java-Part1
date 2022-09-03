@@ -1,18 +1,18 @@
 #include <iostream>
-#include "./HEADER/monomio.h"
-#include "./HEADER/polinomio.h"
+#include "./HEADER/Termo.h"
+#include "./HEADER/Polinomio.h"
 
 using namespace std;
 
 int main () {
     int grau, cte;
     int menu = 1;
-    polinomio *p;
+    Polinomio *p;
 
     cout << "Digite o grau maximo do polinomio: ";
     cin >> grau;
     cout << endl;
-    p = new polinomio(grau);
+    p = new Polinomio(grau);
 
     while (menu != 4) {
         cout << "Menu: " << endl << "\t1) Add" << endl << "\t2) Mostra" << endl << "\t3) Calcula" << endl << "\t4) Sai" << endl;
@@ -21,15 +21,15 @@ int main () {
 
         switch (menu) {
             case 1:
-                cout << "Digite o grau do monomio a ser adicionado: ";
+                cout << "Digite o grau do termo a ser adicionado: ";
                 cin >> grau;
-                cout << "Digite a constante do monomio a ser adicionado: ";
+                cout << "Digite a constante do termo a ser adicionado: ";
                 cin >> cte;
-                p->add(monomio(grau, cte));
+                p->add(Termo(grau, cte));
             break;
 
             case 2:
-                cout << "Seu plinomio eh: ";
+                cout << "Seu polinomio eh: ";
                 p->mostra();
                 cout << endl;
             break;
@@ -44,7 +44,11 @@ int main () {
             case 4:
                 cout << "Saindo...";
                 delete p;
-            break;    
+            break;
+
+            default:
+                cout << "Opcao invalida." << endl;
+            break;        
         }
     }
 

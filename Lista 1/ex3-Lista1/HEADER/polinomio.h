@@ -4,20 +4,20 @@
 #include <iostream>
 #include <cmath>
 #include <list>
-#include "monomio.h"
+#include "Termo.h"
 
 using std::cout;
 using std::endl;
 using std::list;
 
-class polinomio {
+class Polinomio {
     private:
-        std::list<monomio> p;
+        std::list<Termo> p;
         int grau_m;
     public:
-        polinomio(int grau_m);
-        ~polinomio();
-        void add(monomio x);
+        Polinomio(int grau_m);
+        ~Polinomio();
+        void add(Termo x);
         void mostra();
         double calcula(double x);    
 };

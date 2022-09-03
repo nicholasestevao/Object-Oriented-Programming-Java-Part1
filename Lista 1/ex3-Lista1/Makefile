@@ -8,18 +8,18 @@ run:
 
 # __Linking_.O_Files__
 
-polinomios: main.o monomio.o polinomio.o
-	g++ -std=c++11 -o3 -march=native -o polinomios ./bin/main.o ./bin/monomio.o ./bin/polinomio.o
+polinomios: main.o Termo.o Polinomio.o
+	g++ -std=c++11 -o3 -march=native -o polinomios ./bin/main.o ./bin/Termo.o ./bin/Polinomio.o
 ## __.O_Files__
 
 main.o: main.cpp
 	g++ -std=c++11 -o3 -march=native -o ./bin/main.o -c main.cpp
 
-monomio.o: ./cpp/monomio.cpp
-	g++ -std=c++11 -o3 -march=native -o ./bin/monomio.o -c ./CPP/monomio.cpp
+Termo.o: ./cpp/Termo.cpp
+	g++ -std=c++11 -o3 -march=native -o ./bin/Termo.o -c ./CPP/Termo.cpp
 
-polinomio.o: ./cpp/polinomio.cpp
-	g++ -std=c++11 -o3 -march=native -o ./bin/polinomio.o -c ./CPP/polinomio.cpp
+Polinomio.o: ./cpp/Polinomio.cpp
+	g++ -std=c++11 -o3 -march=native -o ./bin/Polinomio.o -c ./CPP/Polinomio.cpp
 
 #__Remove_.EXE_.O__
 clear:
