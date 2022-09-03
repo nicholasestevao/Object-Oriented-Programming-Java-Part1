@@ -1,4 +1,17 @@
-#include "../HEADER/Termo.h"
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* 
+ * File:   Termo.cpp
+ * Author: isaac
+ * 
+ * Created on 3 de Setembro de 2022, 16:29
+ */
+
+#include "Termo.h"
 
 Termo::Termo (int grau, int cte) {
     this->grau = grau;
@@ -24,3 +37,4 @@ void Termo::mostra() {
         cout << cte << "x^" << grau;
     }
 }
+

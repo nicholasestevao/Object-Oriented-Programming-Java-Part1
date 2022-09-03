@@ -1,4 +1,17 @@
-#include "../HEADER/Polinomio.h"
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* 
+ * File:   Polinomio.cpp
+ * Author: isaac
+ * 
+ * Created on 3 de Setembro de 2022, 16:32
+ */
+
+#include "Polinomio.h"
 
 Polinomio::Polinomio (int grau_m) {
     this->grau_m = grau_m;
@@ -59,3 +72,4 @@ double Polinomio::calcula(double x) {
     }
     return val_poli;
 }
+

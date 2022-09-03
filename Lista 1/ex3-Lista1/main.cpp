@@ -1,10 +1,24 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* 
+ * File:   main.cpp
+ * Author: isaac
+ *
+ * Created on 31 de agosto de 2022, 11:24
+ */
+
+#include <cstdlib>
 #include <iostream>
-#include "./HEADER/Termo.h"
-#include "./HEADER/Polinomio.h"
+#include "Termo.h"
+#include "Polinomio.h"
 
 using namespace std;
 
-int main () {
+int main(int argc, char** argv) {
     int grau, cte;
     int menu = 1;
     Polinomio *p;
