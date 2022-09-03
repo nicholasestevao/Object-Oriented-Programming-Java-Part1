@@ -5,7 +5,7 @@ lecionada pelo Professor Robson Leonardo Ferreira Cordeiro, para o curso de Enge
 
 ## Integrantes do Grupo
 
-* Asafe Henrique De França - 12745212
+* Asafe Henrique de França - 12745212
 * Isaac Santos Soares - 12751713
 * Nicholas Estevao Pereira de Oliveira Rodrigues Braganca - 12689616
 
