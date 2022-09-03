@@ -13,6 +13,10 @@ int monomio::getGrau() {
     return grau;
 }
 
+void monomio::addCte (int add_cte) {
+    cte += add_cte;
+}
+
 void monomio::printMonomio() {
     if (grau == 0) {
         cout << cte;

@@ -13,6 +13,7 @@ class monomio {
         monomio (int grau, int cte);  
         int getCte ();  
         int getGrau ();
+        void addCte (int add_cte);
         void printMonomio ();
 };
 
