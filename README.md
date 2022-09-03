@@ -11,7 +11,7 @@ lecionada pelo Professor Robson Leonardo Ferreira Cordeiro, para o curso de Enge
 
 ---
 
-## Lista 1
+## Lista 1 – Modelagem e conceitos de POO
 
 Composta por 3 exercícios onde devemos utilizar da linguagem UML para criarmos nossos projetos de classes e depois implementar esses projetos em C++ ou Java.
 
@@ -38,6 +38,6 @@ A classe Polinomio deve possuir os seguintes métodos:
 
 ---
 
-## Lista 2
+## Lista 2 - UML 
 
 ---
