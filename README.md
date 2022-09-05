@@ -5,10 +5,13 @@ lecionada pelo Professor Robson Leonardo Ferreira Cordeiro, para o curso de Enge
 
 ## Integrantes do Grupo
 
+* Asafe Henrique de França - 12745212
 * Isaac Santos Soares - 12751713
 * Nicholas Estevao Pereira de Oliveira Rodrigues Braganca - 12689616
 
-## Lista 1
+---
+
+## Lista 1 – Modelagem e conceitos de POO
 
 Composta por 3 exercícios onde devemos utilizar da linguagem UML para criarmos nossos projetos de classes e depois implementar esses projetos em C++ ou Java.
 
@@ -25,10 +28,16 @@ possui funcionalidades específicas, como enviaPacoteDeDados, imprimePaginas e a
 
 ### Exercío 3 - Polinomios
 
-No exercio 3 devemos implementar uma classe capaz de definir polinômios do tipo ***P(x) = a_n x^n + a_(n-1) x^(n-1) + ... + a_1 x^1 + a_0 x_0***. 
+No exercio 3 devemos implementar uma classe capaz de definir polinômios do tipo __*P(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>(n-1)</sub>x<sup>(n-1)</sup> + ... + a<sub>1</sub>x<sup>1</sup> + a<sub>0</sub>x<sup>0</sup>*__. 
 Cada termo do polinômio deve ser representado como um objeto de uma classe Termo. 
 A classe Polinomio deve possuir os seguintes métodos:  
 * um construtor que recebe o grau máximo do polinômio;  
-* um método Add que adiciona um termo ***a_n x^n***, o qual deve garantir que o grau máximo do polinômio seja respeitado; caso um termo adicionado anxn já exista, ele deverá ser somado ao termo já existente somando-se os valores de seus coeficientes ((***a_n***)_existente + (***a_n***)_novo);  
+* um método Add que adiciona um termo __*a<sub>n</sub>x<sup>n</sup>*__, o qual deve garantir que o grau máximo do polinômio seja respeitado; caso um termo adicionado anxn já exista, ele deverá ser somado ao termo já existente somando-se os valores de seus coeficientes (__*a<sub>n_existente</sub> + a<sub>n_novo</sub>*__);  
 * um método Mostra que exibe o polinômio;  
-* um método Calcula que recebe um valor de X e retorna o valor calculado.  
+* um método Calcula que recebe um valor de __*x*__ e retorna o valor calculado.  
+
+---
+
+## Lista 2 - UML 
+
+---
