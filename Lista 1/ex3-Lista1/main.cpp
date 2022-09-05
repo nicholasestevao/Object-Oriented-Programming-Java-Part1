@@ -40,32 +40,31 @@ int main(int argc, char** argv) {
                 cout << "Digite a constante do termo a ser adicionado: ";
                 cin >> cte;
                 p->add(Termo(grau, cte));
-            break;
+                break;
 
             case 2:
                 cout << "Seu polinomio eh: ";
                 p->mostra();
                 cout << endl;
-            break;
+                break;
 
             case 3:
                 int x;
                 cout << "Digite um valor para x: ";
                 cin >> x;
                 cout << "O resultado eh: " << p->calcula(x) << endl;
-            break;
+                break;
 
             case 4:
                 cout << "Saindo...";
                 delete p;
-            break;
+                break;
 
             default:
                 cout << "Opcao invalida." << endl;
-            break;        
+                break;
         }
     }
-
     return 0;
 }
 
