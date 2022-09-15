@@ -17,8 +17,13 @@ class SquareRoot  extends Operation {
     }
     
     @Override
-    void calculate(double num) {
+    public void calculate(double num) {
        putResult(Math.sqrt(num));
        showResult();
+    }
+    
+    @Override
+    public void calculate(double a, double b) {
+       
     }
 }

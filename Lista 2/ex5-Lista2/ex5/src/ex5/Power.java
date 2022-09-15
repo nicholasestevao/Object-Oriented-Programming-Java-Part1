@@ -17,8 +17,13 @@ class Power extends Operation {
     }
     
     @Override
-    void calculate(double a, double b) {
+    public void calculate(double a, double b) {
        putResult(Math.pow(a, b));
        showResult();
     } 
+    
+    @Override
+    public void calculate(double num) {
+        
+    }
 }

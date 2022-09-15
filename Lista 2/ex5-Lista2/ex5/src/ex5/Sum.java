@@ -16,8 +16,13 @@ package ex5;
     }
     
     @Override
-    void calculate(double a, double b) {
+    public void calculate(double a, double b) {
        putResult(a + b);
        showResult();
     } 
+    
+    @Override
+    public void calculate(double num) {
+        
+    }
 }

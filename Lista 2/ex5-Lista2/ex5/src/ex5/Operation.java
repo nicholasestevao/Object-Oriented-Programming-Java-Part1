@@ -48,6 +48,6 @@ abstract class Operation {
         System.out.println("Result of operation: " + result);
     }
     
-    abstract void calculate(double num);
-    abstract void calculate(double a, double b);
+    public abstract void calculate(double num);
+    public abstract void calculate(double a, double b);
 }
