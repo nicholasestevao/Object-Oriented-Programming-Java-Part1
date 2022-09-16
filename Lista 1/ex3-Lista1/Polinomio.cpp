@@ -13,7 +13,7 @@
 
 #include "Polinomio.h"
 
-Polinomio::Polinomio (int grau_m) {
+Polinomio::Polinomio(int grau_m) {
     this->grau_m = grau_m;
 }
 
@@ -23,12 +23,12 @@ Polinomio::~Polinomio() {
 
 void Polinomio::add(Termo x) {
     if (x.getGrau() <= grau_m) {
-        if(p.size() == 0) {
+        if (p.size() == 0) {
             p.push_front(x);
         } else {
             list<Termo>::iterator it;
             for (it = p.begin(); it != p.end(); it++) {
-                if(x.getGrau() == it->getGrau()) {
+                if (x.getGrau() == it->getGrau()) {
                     it->addCte(x.getCte());
                     return;
                 }
@@ -46,7 +46,7 @@ void Polinomio::add(Termo x) {
     }
 }
 
-void Polinomio::mostra () {
+void Polinomio::mostra() {
     list<Termo>::reverse_iterator it;
     int i = 1;
     for (it = p.rbegin(); it != p.rend(); it++) {
@@ -65,7 +65,7 @@ double Polinomio::calcula(double x) {
     list<Termo>::iterator it;
     for (it = p.begin(); it != p.end(); it++) {
         if (it->getGrau() == 0) {
-            val_poli += it->getCte(); 
+            val_poli += it->getCte();
         } else {
             val_poli += (pow(x, it->getGrau()) * it->getCte());
         }
