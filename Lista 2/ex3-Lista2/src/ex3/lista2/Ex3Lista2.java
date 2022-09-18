@@ -1,5 +1,6 @@
 
 package ex3.lista2;
+import java.util.*;
 
 public class Ex3Lista2 {
 
@@ -22,14 +23,27 @@ public class Ex3Lista2 {
         superhomem.addSuperPoder(poder3);
         superhomem.addSuperPoder(poder6);
         
+        ArrayList<String> poderesSH = new ArrayList<String>(); 
+        poderesSH.add("Super força");
+        poderesSH.add("Super velocidade");
+        poderesSH.add("Invisibilidade");
+        poderesSH.add("Super resistencia");
+        
         lexluthor.addSuperPoder(poder1);
         lexluthor.addSuperPoder(poder5);
         lexluthor.addSuperPoder(poder3);
         lexluthor.addSuperPoder(poder2);
+        
+        ArrayList<String> poderesLL = new ArrayList<String>(); 
+        poderesLL.add("Raio congelante");
+        poderesLL.add("Telepatia");
+        poderesLL.add("Invisibilidade");
+        poderesLL.add( "Super velocidade");
+        
         int i = 0;
         while(superhomem.getVida() != 0 && lexluthor.getVida() != 0){
-            superhomem.atacar(50, superhomem.getSuperPoder(i%4), lexluthor);
-            lexluthor.atacar(50, lexluthor.getSuperPoder(i%4), superhomem);
+            superhomem.atacar(50, poderesSH.get(i%4), lexluthor);
+            lexluthor.atacar(50, poderesLL.get(i%4), superhomem);
             i++;
         }
         
