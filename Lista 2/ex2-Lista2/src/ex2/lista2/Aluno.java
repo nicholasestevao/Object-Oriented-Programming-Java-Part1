@@ -24,11 +24,6 @@ public class Aluno {
     private String aniv;
 
     /**
-     * 
-     */
-    private Matricula matriculas;
-
-    /**
      * @param nome 
      * @param aniv
      */

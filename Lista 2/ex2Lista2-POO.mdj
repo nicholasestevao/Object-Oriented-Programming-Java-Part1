@@ -154,30 +154,13 @@
 											"height": 13,
 											"text": "-aniv: String",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGDMvNrIXYcaqE=",
-											"_parent": {
-												"$ref": "AAAAAAGDMvHCX3XgTUw="
-											},
-											"model": {
-												"$ref": "AAAAAAGDMvNrFXYZ5l8="
-											},
-											"font": "Arial;13;0",
-											"left": 325,
-											"top": 692,
-											"width": 240.9443359375,
-											"height": 13,
-											"text": "-matriculas: Matricula",
-											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 320,
 									"top": 657,
 									"width": 250.9443359375,
-									"height": 53
+									"height": 38
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -200,7 +183,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 715,
+											"top": 700,
 											"width": 240.9443359375,
 											"height": 13,
 											"text": "+Aluno(nome: String, aniv: String)",
@@ -217,7 +200,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 730,
+											"top": 715,
 											"width": 240.9443359375,
 											"height": 13,
 											"text": "+novaMatricula(turma: Turma): void",
@@ -226,7 +209,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 320,
-									"top": 710,
+									"top": 695,
 									"width": 250.9443359375,
 									"height": 38
 								},
@@ -1942,18 +1925,6 @@
 							"name": "aniv",
 							"visibility": "private",
 							"type": "String"
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAGDMvNrFXYZ5l8=",
-							"_parent": {
-								"$ref": "AAAAAAGDMvHCXXXY1HA="
-							},
-							"name": "matriculas",
-							"visibility": "private",
-							"type": {
-								"$ref": "AAAAAAGDMv2eGnaY/BU="
-							}
 						}
 					],
 					"operations": [

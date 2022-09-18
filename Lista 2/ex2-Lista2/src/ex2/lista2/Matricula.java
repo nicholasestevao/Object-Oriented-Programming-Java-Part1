@@ -1,6 +1,5 @@
 package ex2.lista2;
 
-import java.util.*;
 
 /**
  * 

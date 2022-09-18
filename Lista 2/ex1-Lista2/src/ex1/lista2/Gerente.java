@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Gerente {
     private int cpf;
-    private Cliente[] clientes;
+    private ArrayList<Cliente> clientes;
     
     public Gerente() {
     }
