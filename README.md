@@ -39,6 +39,7 @@ A classe Polinomio deve possuir os seguintes métodos:
 ---
 
 ## Lista 2 - UML 
+
  **OBS:** Para cada um dos exercícios a seguir, foi usado a ferramenta StarUML para criar o diagrama de classes, e exportado o código para a linguagem Java, e foi criado um projeto NetBeans para ele. A implementação das funcionalidades do sistema não era obrigaória a menos que explicitado. Todos os projetos compilam e executam (mesmo os que não fazem nada).
 
 ### Exercío 1 -  Sistema Bancário
@@ -100,5 +101,25 @@ No exercício 5 foi feita a modelagem em UML e implementação em Java utilizand
 Um software de cálculo matemático possui diversas funcionalidades. Uma delas se refere a operação matemática entre dois operandos (float), a qual pode ser: soma, subtração, multiplicação ou divisão. A operação matemática possui a função “realizar cálculo” que retorna o resultado da respectiva operação. O resultado da operação é descrito pelas seguintes informações: usuário que realizou a operação; o tipo da operação; além da data (dia, mês e ano) da operação. Um usuário é descrito por seu nome, idade e foto. Uma foto possui o caminho do arquivo de foto do usuário e a data da foto (dia, mês e ano).
 Em sua implementação Java, no programa principal, crie alguns objetos do seu modelo, realize algumas
 operações e exiba dados dos resultados.
+
+---
+
+## Lista 3 - Herança, polimorfismo e interfaces
+
+## Exercício 1 -
+
+## Exercício 2 -
+
+## Exercício 3 -
+
+## Exercício 4 - 
+
+## Exercício 5 - 
+
+## Exercício 6 - 
+
+## Exercício 7 -
+
+## Exercício 8 -
 
 ---
