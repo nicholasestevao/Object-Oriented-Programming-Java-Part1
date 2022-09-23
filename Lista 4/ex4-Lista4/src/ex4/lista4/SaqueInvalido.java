@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ex3.lista3.p1;
+package ex4.lista4;
 
 /**
  *
  * @author isaac
  */
-public interface PegadaDeCarbono {
-    public float getPegadaDeCarbono();
+public class SaqueInvalido extends ExcecaoContaCorrente {
+    SaqueInvalido () {
+    
+    }
+    
+    SaqueInvalido (String msg) {
+        super(msg);
+    }
 }
