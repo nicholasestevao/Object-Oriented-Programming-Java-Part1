@@ -64,11 +64,11 @@ No exercicio 2 foi feita a modelagem em UML de um sistema de controle de cursos 
 * um aluno pode realizar muitas matrículas, mas cada matrícula refere-se exclusivamente a uma turma
 específica e a um único aluno.
 
-### Exercío 3 -
+### Exercío 3 - Supers
 
 No exercício 3 foi considerado o seguinte diagrama no qual há uma hierarquia de classes Personagem=>SuperHeroi e Personagem=>Vilao; e uma agregação da classe Personagem com a classe Superpoder, isto é, um personagem pode ter nenhum ou vários superpoderes.
 
-![diagramaEx3](./Lista2/diagramaEx3)
+![diagramaEx3](./Lista%202/diagramaEx3.png)
 
 Para a implementação do projeto em Java descrito no diagrama a cima além de acrescentar as seguintes características:
   
