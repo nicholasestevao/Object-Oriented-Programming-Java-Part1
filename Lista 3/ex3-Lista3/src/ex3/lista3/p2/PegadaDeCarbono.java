@@ -5,12 +5,10 @@
  */
 package ex3.lista3.p2;
 
-import ex3.lista3.p1.*;
-
 /**
  *
  * @author isaac
  */
 public interface PegadaDeCarbono {
-    public float getPegadaDeCarbono();
+    public double getPegadaDeCarbono();
 }

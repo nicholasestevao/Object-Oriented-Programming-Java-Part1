@@ -5,7 +5,6 @@
  */
 package ex3.lista3.p2;
 
-import ex3.lista3.p1.*;
 
 /**
  *
@@ -14,7 +13,7 @@ import ex3.lista3.p1.*;
 public class Carro implements PegadaDeCarbono {
     private boolean motor;
     private String tipo_combustivel;
-    private float quantCombustivelConsumido;
+    private double quantCombustivelConsumido;
     private int marcha;
     
     Carro (String tipo_combustivel) {
@@ -42,16 +41,16 @@ public class Carro implements PegadaDeCarbono {
         } 
     }
     
-    void consomeCombustivel(float quantCombustivelConsumido) {
+    void consomeCombustivel(double quantCombustivelConsumido) {
         this.quantCombustivelConsumido += quantCombustivelConsumido; 
     }   
     
     @Override
-     public float getPegadaDeCarbono(){
+     public double getPegadaDeCarbono(){
          if(tipo_combustivel.equals("gasolina")) {
-             return (float) (2.3 * quantCombustivelConsumido);
+             return (double) (2.3 * quantCombustivelConsumido);
          } else { // etanol
-             return (float) (0.32 * quantCombustivelConsumido);
+             return (double) (0.32 * quantCombustivelConsumido);
          }
      }
      

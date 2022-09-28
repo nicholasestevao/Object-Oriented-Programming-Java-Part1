@@ -14,7 +14,7 @@ public class Bicicleta implements PegadaDeCarbono {
     private int cassete_usado;
     private int coroas;
     private int coroa_usada;
-    private float distancia_percorrida;
+    private double distancia_percorrida;
     
     Bicicleta(int cassetes, int coroas) {
         this.cassetes = cassetes;
@@ -56,13 +56,13 @@ public class Bicicleta implements PegadaDeCarbono {
          }   
     }
     
-    void andar(float distancia_percorrida) {
+    public void andar(double distancia_percorrida) {
         this.distancia_percorrida = distancia_percorrida;
     }
     
     @Override
-    public float getPegadaDeCarbono(){
-         return (float) (-2.3 * distancia_percorrida/10);
+    public double getPegadaDeCarbono(){
+         return (double) (-2.3 * distancia_percorrida/10);
      }
     
 }
