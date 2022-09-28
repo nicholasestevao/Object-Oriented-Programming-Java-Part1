@@ -5,29 +5,33 @@
  */
 package ex3.lista3.p2;
 
-import ex3.lista3.p1.*;
-
 /**
  *
  * @author isaac
  */
-public class Predio implements PegadaDeCarbono {
+public abstract class Predio implements PegadaDeCarbono {
      
-    float consumo_energia;
-    float porcentagem_energia_limpa;
+    private double consumo_energia;
+    private double porcentagem_energia_limpa;
     
-    Predio(float porcentagem_energia_limpa) {
+    Predio(double porcentagem_energia_limpa) {
        this.consumo_energia = 0;
        this.porcentagem_energia_limpa = porcentagem_energia_limpa;
     }
     
-    void consomeEnergia(float cosumo_energia) {
-        this.consumo_energia += consumo_energia;
+    public double getConsumoEnergia() {
+        return consumo_energia;
     }
+    
+    public void setConsumoEnergia(double consumo_energia) {
+        this.consumo_energia = consumo_energia;
+    }
+    
+    public abstract void consomeEnergia(double cosumo_energia);
     
     @Override
-    public float getPegadaDeCarbono(){
-        return (float) ((1-porcentagem_energia_limpa) * consumo_energia * 100);
-    }
-    
+       public double getPegadaDeCarbono() {
+            return ((1-porcentagem_energia_limpa) * consumo_energia * 100);
+        }
+
 }

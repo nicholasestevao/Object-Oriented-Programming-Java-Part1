@@ -9,6 +9,13 @@ package ex3.lista3.p2;
  *
  * @author isaac
  */
-public class Escola {
-    
+public class Escola extends Predio {
+    Escola(double porcentagem_energia_limpa) {
+        super(porcentagem_energia_limpa);
+    }
+
+    public void consomeEnergia (double consumo_energia) {
+        this.setConsumoEnergia(this.getConsumoEnergia() + consumo_energia);
+    }
+
 }

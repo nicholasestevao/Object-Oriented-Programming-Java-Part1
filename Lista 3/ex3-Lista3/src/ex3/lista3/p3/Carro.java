@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ex3.lista3.p1;
+package ex3.lista3.p3;
+
+
 /**
  *
  * @author isaac
